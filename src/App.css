@@ -1,0 +1,101 @@
+:root {
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: radial-gradient(circle at top, #111827, #020617 55%, #000 100%);
+  color: #e5e7eb;
+}
+
+a { color: inherit; }
+
+.page { min-height: 100vh; }
+
+.container {
+  width: min(1100px, 100% - 2rem);
+  margin: 0 auto;
+  padding: 2rem 0 4rem;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  backdrop-filter: blur(12px);
+  background: rgba(2, 6, 23, 0.7);
+  border-bottom: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+.logo { font-weight: 700; letter-spacing: 0.02em; }
+
+.links { display: flex; gap: 1rem; }
+.links a { text-decoration: none; color: #9ca3af; }
+.links a:hover { color: #e5e7eb; }
+
+.hero { padding: 3.25rem 0 1.5rem; }
+.tag { color: #818cf8; letter-spacing: 0.16em; text-transform: uppercase; font-size: 0.85rem; }
+.sub { color: #9ca3af; max-width: 42rem; }
+
+.cta { display: flex; gap: 0.75rem; margin-top: 1.25rem; flex-wrap: wrap; }
+
+.btn {
+  text-decoration: none;
+  padding: 0.65rem 1.1rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn.primary {
+  background: linear-gradient(135deg, #6366f1, #a855f7);
+  box-shadow: 0 18px 45px rgba(99, 102, 241, 0.25);
+}
+
+.btn.ghost {
+  border-color: rgba(148, 163, 184, 0.35);
+  background: rgba(2, 6, 23, 0.5);
+}
+
+.section { margin-top: 3rem; }
+.section h2 { margin: 0 0 0.75rem; font-size: 1.35rem; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  background: rgba(2, 6, 23, 0.55);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.pillRow { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+.pill {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  color: #cbd5e1;
+}
+
+.footer {
+  margin-top: 3rem;
+  color: #9ca3af;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 800px) {
+  .grid { grid-template-columns: 1fr; }
+}
