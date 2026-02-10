@@ -1,16 +1,14 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-
-  
-  base: "/",
+  base: "/", 
 
   build: {
-    outDir: "dist",
-    sourcemap: false, 
+    outDir: "docs",   // GitHub Pages from main /docs
+    sourcemap: false,
+    emptyOutDir: true,
   },
 
   server: {
