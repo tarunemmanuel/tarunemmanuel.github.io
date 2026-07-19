@@ -147,15 +147,14 @@ export default function App() {
         </div>
 
         <div className="container hero-center">
-          <p className="hero-tag reveal">AI SOFTWARE ENGINEER</p>
+          <p className="hero-tag reveal">MACHINE LEARNING ENGINEER</p>
 
           <h1 className="hero-title reveal">
-            Building scalable AI systems with LLMs, data pipelines, and cloud-native infrastructure.
+            Building production AI solutions, LLM applications, RAG systems, and real-time ML pipelines.
           </h1>
 
           <p className="hero-subtitle hero-subtitle-center reveal">
-            AI/ML Software Engineer with 3+ years of experience delivering production systems across
-            RAG, distributed data pipelines, and end-to-end deployment using Python, AWS, and Kubernetes.
+            Machine Learning Engineer with 4 years of experience building production AI solutions across financial services and enterprise applications. Strong background in Python, PyTorch, FastAPI, LangChain, Kubernetes, and cloud platforms.
           </p>
 
           <div className="hero-actions hero-actions-center reveal">
@@ -179,7 +178,7 @@ export default function App() {
             >
               <i className="fab fa-linkedin"></i>
             </a>
-            <a href="mailto:tarunemmanuelx@gmail.com" aria-label="Email">
+            <a href="mailto:iamtarunemmanuel@gmail.com" aria-label="Email">
               <i className="fa-solid fa-envelope"></i>
             </a>
           </div>
@@ -192,30 +191,34 @@ export default function App() {
           <div>
             <h2 className="section-title">About Me</h2>
             <p className="section-text">
-              I am an AI/ML Software Engineer with 3+ years of experience building scalable,
-              production-grade systems. My work focuses on LLM applications, distributed data
-              pipelines, and cloud-native infrastructure that improve model performance and create
-              measurable business impact.
+              Machine Learning Engineer with 4 years of experience building production AI solutions across
+              financial services and enterprise applications. Experienced in designing Large Language Model (LLM)
+              applications, Retrieval Augmented Generation (RAG) systems, intelligent document processing, and real-time
+              machine learning pipelines.
             </p>
             <br></br>
             <p className="section-text">
-              I enjoy owning systems end to end, from data processing and model development to API
-              design, deployment, monitoring, and optimization across modern ML and software stacks.
+              Strong background in Python, PyTorch, FastAPI, LangChain, Kubernetes, and cloud platforms, with hands-on
+              experience developing scalable AI services, automating ML workflows, and deploying models from experimentation to production.
             </p>
           </div>
 
           <div className="about-cards">
             <div className="about-card reveal">
               <p className="about-label">Location</p>
-              <p className="about-value">MA 01603, USA</p>
+              <p className="about-value">Worcester, MA, USA</p>
             </div>
             <div className="about-card reveal">
               <p className="about-label">Email</p>
-              <p className="about-value">tarunemmanuelx@gmail.com</p>
+              <p className="about-value">iamtarunemmanuel@gmail.com</p>
+            </div>
+            <div className="about-card reveal">
+              <p className="about-label">Phone</p>
+              <p className="about-value">(774) 232-5627</p>
             </div>
             <div className="about-card reveal">
               <p className="about-label">Open To</p>
-              <p className="about-value">AI Software Engineer / ML Engineer roles</p>
+              <p className="about-value">Machine Learning Engineer / AI Engineer roles</p>
             </div>
           </div>
         </div>
@@ -224,109 +227,95 @@ export default function App() {
       {/* Skills */}
       <section className="section alt" id="skills">
         <div className="container">
-          <h2 className="section-title reveal">Technical Expertise</h2>
+          <h2 className="section-title reveal">Technical Skills</h2>
 
           <div className="skills-grid">
             <div className="skills-card reveal glass-card" data-magnet="10">
-              <h3>Programming & Core Tools</h3>
+              <h3>Programming & Core</h3>
               <div className="skills-icons">
                 <span><i className="fa-brands fa-python"></i> Python</span>
                 <span><i className="fa-brands fa-java"></i> Java</span>
                 <span><i className="fa-solid fa-database"></i> SQL</span>
-                <span><i className="fa-solid fa-terminal"></i> Bash</span>
                 <span><i className="fa-solid fa-bolt"></i> FastAPI</span>
-                <span><i className="fa-solid fa-flask"></i> Flask</span>
-                <span><i className="fa-solid fa-leaf"></i> Spring Boot</span>
                 <span><i className="fa-solid fa-plug"></i> REST APIs</span>
-                <span><i className="fa-solid fa-circle-nodes"></i> GraphQL</span>
-                <span><i className="fa-solid fa-server"></i> Django</span>
+                <span><i className="fa-solid fa-cubes"></i> Microservices</span>
+                <span><i className="fa-solid fa-stream"></i> Apache Kafka</span>
+                <span><i className="fa-solid fa-network-wired"></i> ETL Pipelines</span>
+                <span><i className="fa-solid fa-server"></i> Distributed Systems</span>
               </div>
             </div>
 
             <div className="skills-card reveal glass-card" data-magnet="10">
               <h3>Machine Learning</h3>
               <div className="skills-icons">
-                <span><i className="fa-solid fa-chart-line"></i> Regression</span>
-                <span><i className="fa-solid fa-layer-group"></i> Classification</span>
-                <span><i className="fa-solid fa-sitemap"></i> XGBoost</span>
-                <span><i className="fa-solid fa-sitemap"></i> LightGBM</span>
-                <span><i className="fa-solid fa-wave-square"></i> LSTM</span>
-                <span><i className="fa-solid fa-wave-square"></i> ARIMA</span>
-                <span><i className="fa-solid fa-magnifying-glass-chart"></i> Anomaly Detection</span>
-                <span><i className="fa-solid fa-wand-magic-sparkles"></i> Feature Engineering</span>
-                <span><i className="fa-solid fa-compress"></i> PCA</span>
-                <span><i className="fa-solid fa-sliders"></i> Hyperparameter Tuning</span>
-              </div>
-            </div>
-
-            <div className="skills-card reveal glass-card" data-magnet="10">
-              <h3>NLP & Generative AI</h3>
-              <div className="skills-icons">
-                <span><i className="fa-solid fa-robot"></i> LLM Development</span>
-                <span><i className="fa-solid fa-diagram-project"></i> Transformers</span>
-                <span><i className="fa-solid fa-font"></i> BERT</span>
-                <span><i className="fa-solid fa-book-open"></i> RAG</span>
-                <span><i className="fa-solid fa-pen-nib"></i> Prompt Engineering</span>
-                <span><i className="fa-solid fa-link"></i> LangChain</span>
-                <span><i className="fa-solid fa-sitemap"></i> Agentic Workflows</span>
-                <span><i className="fa-solid fa-database"></i> Embeddings</span>
-                <span><i className="fa-solid fa-magnifying-glass"></i> Semantic Search</span>
-                <span><i className="fa-solid fa-face-smile"></i> Sentiment Analysis</span>
-              </div>
-            </div>
-
-            <div className="skills-card reveal glass-card" data-magnet="10">
-              <h3>ML Libraries & Frameworks</h3>
-              <div className="skills-icons">
                 <span><i className="fa-solid fa-network-wired"></i> PyTorch</span>
                 <span><i className="fa-solid fa-cubes"></i> TensorFlow</span>
                 <span><i className="fa-solid fa-chart-line"></i> Scikit-learn</span>
-                <span><i className="fa-solid fa-brain"></i> Hugging Face</span>
-                <span><i className="fa-solid fa-square-root-variable"></i> Statsmodels</span>
-                <span><i className="fa-solid fa-chart-area"></i> Matplotlib</span>
-                <span><i className="fa-solid fa-chart-column"></i> Seaborn</span>
+                <span><i className="fa-solid fa-sitemap"></i> XGBoost</span>
+                <span><i className="fa-solid fa-sitemap"></i> LightGBM</span>
+                <span><i className="fa-solid fa-brain"></i> Transformers</span>
+                <span><i className="fa-solid fa-font"></i> BERT</span>
+                <span><i className="fa-solid fa-chart-area"></i> Prophet</span>
+                <span><i className="fa-solid fa-wave-square"></i> LSTM & GRU</span>
+                <span><i className="fa-solid fa-chart-line"></i> TFT</span>
+                <span><i className="fa-solid fa-magnifying-glass-chart"></i> SHAP</span>
               </div>
             </div>
 
             <div className="skills-card reveal glass-card" data-magnet="10">
-              <h3>Cloud, DevOps & MLOps</h3>
+              <h3>Generative AI & Agentic AI</h3>
               <div className="skills-icons">
-                <span><i className="fa-brands fa-aws"></i> AWS</span>
+                <span><i className="fa-solid fa-link"></i> LangChain</span>
+                <span><i className="fa-solid fa-diagram-project"></i> LangGraph</span>
+                <span><i className="fa-solid fa-robot"></i> OpenAI GPT-4o</span>
+                <span><i className="fa-solid fa-cloud"></i> Azure OpenAI</span>
+                <span><i className="fa-solid fa-wand-magic-sparkles"></i> Agentic AI</span>
+                <span><i className="fa-solid fa-book-open"></i> RAG</span>
+                <span><i className="fa-solid fa-pen-nib"></i> Prompt Engineering</span>
+                <span><i className="fa-solid fa-sliders"></i> QLoRA & PEFT</span>
+                <span><i className="fa-solid fa-database"></i> Embeddings</span>
+                <span><i className="fa-solid fa-magnifying-glass"></i> Hybrid Search</span>
+                <span><i className="fa-solid fa-check-double"></i> RAGAS</span>
+              </div>
+            </div>
+
+            <div className="skills-card reveal glass-card" data-magnet="10">
+              <h3>Cloud & MLOps</h3>
+              <div className="skills-icons">
+                <span><i className="fa-brands fa-aws"></i> AWS (SageMaker, Bedrock, Textract, Lex)</span>
+                <span><i className="fa-solid fa-cloud"></i> Azure AI Services</span>
                 <span><i className="fa-brands fa-docker"></i> Docker</span>
                 <span><i className="fa-solid fa-network-wired"></i> Kubernetes</span>
-                <span><i className="fa-solid fa-arrows-rotate"></i> GitHub Actions</span>
-                <span><i className="fa-solid fa-gears"></i> Jenkins</span>
+                <span><i className="fa-solid fa-wind"></i> Apache Airflow</span>
                 <span><i className="fa-solid fa-chart-line"></i> MLflow</span>
+                <span><i className="fa-solid fa-arrows-rotate"></i> CI/CD</span>
+                <span><i className="fa-solid fa-rocket"></i> Model Deployment</span>
                 <span><i className="fa-solid fa-heart-pulse"></i> Model Monitoring</span>
-                <span><i className="fa-solid fa-chart-simple"></i> Drift Detection</span>
-                <span><i className="fa-solid fa-code-branch"></i> Terraform</span>
-                <span><i className="fa-solid fa-chart-column"></i> Grafana</span>
+                <span><i className="fa-solid fa-gears"></i> LLMOps</span>
               </div>
             </div>
 
             <div className="skills-card reveal glass-card" data-magnet="10">
-              <h3>Data Engineering & Databases</h3>
+              <h3>Document AI & Computer Vision</h3>
+              <div className="skills-icons">
+                <span><i className="fa-solid fa-file-contract"></i> LayoutLM</span>
+                <span><i className="fa-solid fa-file-text"></i> Tesseract OCR</span>
+                <span><i className="fa-solid fa-eye"></i> OpenCV</span>
+                <span><i className="fa-solid fa-microchip"></i> ONNX Runtime</span>
+                <span><i className="fa-solid fa-robot"></i> Intelligent Document Processing</span>
+              </div>
+            </div>
+
+            <div className="skills-card reveal glass-card" data-magnet="10">
+              <h3>Databases & Tools</h3>
               <div className="skills-icons">
                 <span><i className="fa-solid fa-database"></i> PostgreSQL</span>
-                <span><i className="fa-solid fa-database"></i> MySQL</span>
-                <span><i className="fa-solid fa-database"></i> FAISS</span>
-                <span><i className="fa-solid fa-database"></i> Pinecone</span>
-                <span><i className="fa-solid fa-database"></i> Snowflake</span>
-                <span><i className="fa-solid fa-leaf"></i> MongoDB</span>
                 <span><i className="fa-solid fa-memory"></i> Redis</span>
-                <span><i className="fa-solid fa-stream"></i> Apache Kafka</span>
-                <span><i className="fa-solid fa-bolt"></i> PySpark</span>
-              </div>
-            </div>
-
-            <div className="skills-card reveal glass-card" data-magnet="10">
-              <h3>Frontend & Visualization</h3>
-              <div className="skills-icons">
-                <span><i className="fa-brands fa-react"></i> React.js</span>
-                <span><i className="fa-solid fa-forward"></i> Next.js</span>
-                <span><i className="fa-brands fa-js"></i> TypeScript</span>
-                <span><i className="fa-brands fa-html5"></i> HTML</span>
-                <span><i className="fa-brands fa-css3-alt"></i> CSS</span>
+                <span><i className="fa-solid fa-database"></i> Vector Databases</span>
+                <span><i className="fa-brands fa-git-alt"></i> Git</span>
+                <span><i className="fa-brands fa-github"></i> GitHub</span>
+                <span><i className="fa-solid fa-list-check"></i> Jira</span>
+                <span><i className="fa-solid fa-users"></i> Agile Scrum</span>
               </div>
             </div>
           </div>
@@ -338,41 +327,10 @@ export default function App() {
         <div className="container">
           <h2 className="section-title reveal">Featured Projects</h2>
           <p className="section-text center reveal">
-            Selected work in machine learning systems, forecasting, and anomaly detection.
+            Selected projects showcasing deep learning forecasting, risk scoring anomaly detection, and RAG troubleshooting engines.
           </p>
 
           <div className="projects-grid">
-            <article className="project-card reveal">
-              <div className="project-header">
-                <span className="project-icon">
-                  <i className="fa-solid fa-shield-halved"></i>
-                </span>
-                <h3>Credit Card Fraud Detection</h3>
-              </div>
-
-              <p className="project-desc">
-                Engineered a scalable fraud detection system using Random Forest Classifier to flag
-                anomalous transactions across a dataset of 984,000+ records.
-              </p>
-
-              <ul className="project-tags">
-                <li>Python</li>
-                <li>Random Forest</li>
-                <li>Anomaly Detection</li>
-              </ul>
-
-              <div className="project-links">
-                <a
-                  className="link-btn"
-                  href="https://github.com/tarunemmanuel/credit-card-fraud-detection"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <i className="fa-brands fa-github" /> View Repo
-                </a>
-              </div>
-            </article>
-
             <article className="project-card reveal">
               <div className="project-header">
                 <span className="project-icon">
@@ -382,14 +340,15 @@ export default function App() {
               </div>
 
               <p className="project-desc">
-                Led a 4-member team to design and deploy a full-stack stock prediction web app using
-                Python, Flask, HTML, and CSS with dynamic data visualization for real-time insights.
+                Engineered a high-frequency trading forecasting engine using LSTM and GRU networks with TensorFlow, achieving a 25% increase in prediction accuracy for historical market datasets. Developed a full-stack financial dashboard using FastAPI and React.js to visualize real-time inference, reducing latency by 30% through optimized preprocessing pipelines and NumPy vectorization.
               </p>
 
               <ul className="project-tags">
                 <li>Python</li>
+                <li>TensorFlow</li>
                 <li>LSTM / GRU</li>
-                <li>Flask</li>
+                <li>FastAPI</li>
+                <li>React.js</li>
               </ul>
 
               <div className="project-links">
@@ -407,26 +366,60 @@ export default function App() {
             <article className="project-card reveal">
               <div className="project-header">
                 <span className="project-icon">
-                  <i className="fa-solid fa-box-archive"></i>
+                  <i className="fa-solid fa-shield-halved"></i>
                 </span>
-                <h3>Archivum</h3>
+                <h3>Credit Card Fraud Detection</h3>
               </div>
 
               <p className="project-desc">
-                A web application for managing and archiving documents and files with a focus on
-                structured storage, secure access, and modern user workflows.
+                Architected a real-time risk scoring system using Random Forest and Scikit-learn, processing 984K+ transactions to detect anomalies and minimize false positives in high-volume production environments. Implemented an automated feature engineering pipeline with Python and SQL, utilizing SMOTE for imbalanced data handling and Docker for scalable, containerized model deployment.
               </p>
 
               <ul className="project-tags">
-                <li>Web App</li>
-                <li>Document Management</li>
-                <li>Full Stack</li>
+                <li>Python</li>
+                <li>Random Forest</li>
+                <li>Scikit-learn</li>
+                <li>SMOTE</li>
+                <li>Docker</li>
+                <li>SQL</li>
               </ul>
 
               <div className="project-links">
                 <a
                   className="link-btn"
-                  href="https://github.com/tarunemmanuel/archivum"
+                  href="https://github.com/tarunemmanuel/credit-card-fraud-detection"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fa-brands fa-github" /> View Repo
+                </a>
+              </div>
+            </article>
+
+            <article className="project-card reveal">
+              <div className="project-header">
+                <span className="project-icon">
+                  <i className="fa-solid fa-robot"></i>
+                </span>
+                <h3>RAG Assistant for SAP Incident Troubleshooting</h3>
+              </div>
+
+              <p className="project-desc">
+                Developed a RAG-based assistant that ingests historical SAP tickets, dumps, job logs, and internal KB/SAP Notes into a vector database for similarity search. Implemented text chunking, embeddings, and retrieval pipelines so that for a new incident, the system surfaces similar cases and contextual documents, enabling LLMs to generate targeted troubleshooting guidance.
+              </p>
+
+              <ul className="project-tags">
+                <li>Python</li>
+                <li>RAG</li>
+                <li>Vector Databases</li>
+                <li>Embeddings</li>
+                <li>LLMs</li>
+              </ul>
+
+              <div className="project-links">
+                <a
+                  className="link-btn"
+                  href="https://github.com/tarunemmanuel/rag-sap-troubleshooting"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -441,34 +434,26 @@ export default function App() {
       {/* Experience */}
       <section className="section alt" id="experience">
         <div className="container">
-          <h2 className="section-title reveal">Experience</h2>
+          <h2 className="section-title reveal">Professional Experience</h2>
 
           <div className="timeline reveal">
             <div className="timeline-item reveal">
               <span className="timeline-dot"></span>
               <div className="timeline-content">
                 <p className="timeline-period">Sep 2025 – Present</p>
-                <h3>State Street, USA · AI Software Engineer</h3>
+                <h3>State Street · Machine Learning Engineer</h3>
                 <p>
-                  • Spearheaded development of a RAG-based investment copilot using LangChain,
-                  OpenAI APIs, and FAISS, enhancing retrieval quality with re-ranking and cutting
-                  analyst research time by 50%.
+                  • Architected and deployed Retrieval Augmented Generation applications using LangChain, LangGraph, Azure OpenAI, and vector databases to improve enterprise knowledge discovery for financial research teams.
                   <br />
-                  • Developed predictive models with Scikit-learn and vector databases for anomaly
-                  detection in transaction data, incorporating feature engineering to reduce false
-                  alerts by 20% in early-stage projects.
+                  • Developed Agentic AI workflows with tool calling, memory management, and multi-step reasoning to automate research, document analysis, and internal knowledge retrieval.
                   <br />
-                  • Implemented secure, low-latency APIs using FastAPI, GraphQL, JWT, and Redis
-                  caching, supporting high-concurrency financial queries while strengthening access
-                  control and response efficiency.
+                  • Built scalable inference services using FastAPI, Docker, and Kubernetes, enabling reliable deployment of LLM powered applications with sub two second response times.
                   <br />
-                  • Orchestrated event-driven data pipelines with Kafka and Celery, applying
-                  fault-tolerant streaming and partitioning strategies to accelerate multi-source
-                  data ingestion by 35%.
+                  • Designed hybrid retrieval pipelines combining embeddings, BM25 search, reranking models, and semantic search to improve response relevance across enterprise AI assistants.
                   <br />
-                  • Established LLMOps workflows with LangChain and MLflow, incorporating prompt
-                  versioning, evaluation pipelines, and monitoring to improve response reliability
-                  and manage inference costs.
+                  • Implemented end to end MLOps and LLMOps workflows using MLflow, Apache Airflow, CI/CD, automated evaluation, and model monitoring, reducing model deployment time by 60%.
+                  <br />
+                  • Collaborated with data scientists, software engineers, and business stakeholders to deliver secure, scalable AI solutions aligned with enterprise governance and compliance requirements.
                 </p>
               </div>
             </div>
@@ -477,28 +462,19 @@ export default function App() {
               <span className="timeline-dot"></span>
               <div className="timeline-content">
                 <p className="timeline-period">Apr 2021 – Dec 2023</p>
-                <h3>Happiest Minds Technologies, India · Machine Learning Engineer</h3>
+                <h3>Happiest Minds Technologies · Machine Learning Engineer</h3>
                 <p>
-                  • Engineered a predictive analytics platform for financial forecasting using
-                  Transformers and fine-tuning techniques with PyTorch on time-series data,
-                  achieving 22% better accuracy in market volatility prediction for investment
-                  clients.
+                  • Developed customer churn prediction models using Python, Scikit learn, XGBoost, and SQL on more than 1 million customer records, improving retention campaign effectiveness by 18%.
                   <br />
-                  • Collaborated with data science and DevOps teams to develop and tune churn
-                  prediction models using XGBoost, PySpark, and Optuna, improving recall-driven
-                  performance and reducing customer churn by 18% within six months.
+                  • Built intelligent document processing solutions using LayoutLM, OCR, and transformer models, reducing manual document processing by 70%.
                   <br />
-                  • Architected an end-to-end document intelligence platform using BERT, AWS
-                  Textract, and Kafka, designing scalable pipelines that reduced manual processing
-                  by 65% and improved throughput by 3x.
+                  • Improved document extraction accuracy from 67% to 89% by implementing layout aware NLP pipelines for scanned and semi structured documents.
                   <br />
-                  • Built and optimized NLP extraction models with Python and FastAPI, applying
-                  feature engineering and validation logic to achieve 92%+ accuracy across diverse
-                  financial document formats.
+                  • Automated model training, deployment, and monitoring using Apache Airflow, MLflow, Docker, and Kubernetes to streamline machine learning operations.
                   <br />
-                  • Designed containerized microservices with Docker, Kubernetes, and CI/CD
-                  pipelines, enabling automated model deployment, versioning, and reducing release
-                  cycles by 40%.
+                  • Developed demand forecasting models using Prophet, LSTM, and Temporal Fusion Transformers to support inventory planning and business forecasting.
+                  <br />
+                  • Collaborated with product managers and engineering teams to integrate machine learning models into production applications, contributing to solutions that generated approximately $2 million in annual operational savings.
                 </p>
               </div>
             </div>
@@ -527,7 +503,25 @@ export default function App() {
                 </div>
               </div>
 
-              <p className="edu-degree">Master in Computer Science</p>
+              <p className="edu-degree">MS in Computer Science, GPA: 3.9/4.0</p>
+            </article>
+
+            <article className="edu-card glass-card reveal" data-magnet="10">
+              <div className="edu-top">
+                <div className="edu-mark" aria-hidden="true">JNTU</div>
+
+                <div className="edu-head">
+                  <h3 className="edu-school">Jawaharlal Nehru Technological University</h3>
+                  <p className="edu-location">Anantapur, India</p>
+                </div>
+
+                <div className="edu-badges">
+                  <span className="badge">July 2018 – May 2022</span>
+                  <span className="badge badge-solid">Bachelor's</span>
+                </div>
+              </div>
+
+              <p className="edu-degree">Bachelors in Computer Science</p>
             </article>
           </div>
         </div>
@@ -539,14 +533,17 @@ export default function App() {
           <div className="reveal">
             <h2 className="section-title">Let’s Connect</h2>
             <p className="section-text">
-              Hiring for AI software engineering, machine learning, or intelligent systems roles?
-              Reach out.
+              Looking for a Machine Learning Engineer or AI Engineer for your team? Reach out and let's talk.
             </p>
 
             <ul className="contact-list">
               <li>
                 <i className="fa-solid fa-envelope"></i>
-                <a href="mailto:tarunemmanuelx@gmail.com">tarunemmanuelx@gmail.com</a>
+                <a href="mailto:iamtarunemmanuel@gmail.com">iamtarunemmanuel@gmail.com</a>
+              </li>
+              <li>
+                <i className="fa-solid fa-phone"></i>
+                <a href="tel:7742325627">(774) 232-5627</a>
               </li>
               <li>
                 <i className="fab fa-linkedin"></i>
@@ -575,7 +572,7 @@ export default function App() {
               const subject = encodeURIComponent(`Portfolio Contact — ${name}`);
               const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`);
 
-              window.location.href = `mailto:tarunemmanuelx@gmail.com?subject=${subject}&body=${body}`;
+              window.location.href = `mailto:iamtarunemmanuel@gmail.com?subject=${subject}&body=${body}`;
             }}
           >
             <div className="form-row">
@@ -605,9 +602,10 @@ export default function App() {
       <footer className="footer">
         <div className="container footer-inner reveal">
           <p>© {year} Tarun Emmanuel Majhi. All rights reserved.</p>
-          <p className="footer-note">Built with React + TypeScript · Deployed on GitHub Pages</p>
         </div>
       </footer>
     </>
   );
 }
+
+
