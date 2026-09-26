@@ -150,11 +150,11 @@ export default function App() {
           <p className="hero-tag reveal">MACHINE LEARNING ENGINEER</p>
 
           <h1 className="hero-title reveal">
-            Building production AI solutions, LLM applications, RAG systems, and real-time ML pipelines.
+            Building production ML platforms, real-time streaming pipelines, and enterprise GenAI systems.
           </h1>
 
           <p className="hero-subtitle hero-subtitle-center reveal">
-            Machine Learning Engineer with 4 years of experience building production AI solutions across financial services and enterprise applications. Strong background in Python, PyTorch, FastAPI, LangChain, Kubernetes, and cloud platforms.
+            Machine Learning Engineer with around 4 years of experience designing, deploying, and maintaining production ML platforms and streaming infrastructure across banking and insurance. Specialized in real-time inference pipelines, graph neural networks, MLOps, and enterprise GenAI systems using Python, PySpark, PyTorch, AWS SageMaker/EKS, and vector databases.
           </p>
 
           <div className="hero-actions hero-actions-center reveal">
@@ -191,15 +191,14 @@ export default function App() {
           <div>
             <h2 className="section-title">About Me</h2>
             <p className="section-text">
-              Machine Learning Engineer with 4 years of experience building production AI solutions across
-              financial services and enterprise applications. Experienced in designing Large Language Model (LLM)
-              applications, Retrieval Augmented Generation (RAG) systems, intelligent document processing, and real-time
-              machine learning pipelines.
+              Machine Learning Engineer with around 4 years of experience designing, deploying, and maintaining production ML platforms and
+              streaming infrastructure across banking and insurance. Specialized in real-time inference pipelines, graph neural networks, MLOps, and
+              enterprise GenAI systems using Python, PySpark, PyTorch, AWS SageMaker/EKS, and vector databases.
             </p>
             <br></br>
             <p className="section-text">
-              Strong background in Python, PyTorch, FastAPI, LangChain, Kubernetes, and cloud platforms, with hands-on
-              experience developing scalable AI services, automating ML workflows, and deploying models from experimentation to production.
+              Proven track record of delivering high-impact financial systems, including cutting annual trade fail penalties by $3.2M at State Street
+              and reducing manual insurance claim review times by 35%.
             </p>
           </div>
 
@@ -214,7 +213,7 @@ export default function App() {
             </div>
             <div className="about-card reveal">
               <p className="about-label">Phone</p>
-              <p className="about-value">(774) 232-5627</p>
+              <p className="about-value">+17742325627</p>
             </div>
             <div className="about-card reveal">
               <p className="about-label">Open To</p>
@@ -231,91 +230,97 @@ export default function App() {
 
           <div className="skills-grid">
             <div className="skills-card reveal glass-card" data-magnet="10">
-              <h3>Programming & Core</h3>
+              <h3>Programming Languages & Frameworks</h3>
               <div className="skills-icons">
                 <span><i className="fa-brands fa-python"></i> Python</span>
-                <span><i className="fa-brands fa-java"></i> Java</span>
-                <span><i className="fa-solid fa-database"></i> SQL</span>
-                <span><i className="fa-solid fa-bolt"></i> FastAPI</span>
-                <span><i className="fa-solid fa-plug"></i> REST APIs</span>
-                <span><i className="fa-solid fa-cubes"></i> Microservices</span>
-                <span><i className="fa-solid fa-stream"></i> Apache Kafka</span>
-                <span><i className="fa-solid fa-network-wired"></i> ETL Pipelines</span>
-                <span><i className="fa-solid fa-server"></i> Distributed Systems</span>
-              </div>
-            </div>
-
-            <div className="skills-card reveal glass-card" data-magnet="10">
-              <h3>Machine Learning</h3>
-              <div className="skills-icons">
-                <span><i className="fa-solid fa-network-wired"></i> PyTorch</span>
-                <span><i className="fa-solid fa-cubes"></i> TensorFlow</span>
+                <span><i className="fa-solid fa-bolt"></i> PySpark</span>
+                <span><i className="fa-solid fa-table"></i> Polars</span>
                 <span><i className="fa-solid fa-chart-line"></i> Scikit-learn</span>
-                <span><i className="fa-solid fa-sitemap"></i> XGBoost</span>
-                <span><i className="fa-solid fa-sitemap"></i> LightGBM</span>
-                <span><i className="fa-solid fa-brain"></i> Transformers</span>
-                <span><i className="fa-solid fa-font"></i> BERT</span>
-                <span><i className="fa-solid fa-chart-area"></i> Prophet</span>
-                <span><i className="fa-solid fa-wave-square"></i> LSTM & GRU</span>
-                <span><i className="fa-solid fa-chart-line"></i> TFT</span>
-                <span><i className="fa-solid fa-magnifying-glass-chart"></i> SHAP</span>
-              </div>
-            </div>
-
-            <div className="skills-card reveal glass-card" data-magnet="10">
-              <h3>Generative AI & Agentic AI</h3>
-              <div className="skills-icons">
+                <span><i className="fa-solid fa-fire"></i> PyTorch</span>
                 <span><i className="fa-solid fa-link"></i> LangChain</span>
-                <span><i className="fa-solid fa-diagram-project"></i> LangGraph</span>
-                <span><i className="fa-solid fa-robot"></i> OpenAI GPT-4o</span>
-                <span><i className="fa-solid fa-cloud"></i> Azure OpenAI</span>
-                <span><i className="fa-solid fa-wand-magic-sparkles"></i> Agentic AI</span>
-                <span><i className="fa-solid fa-book-open"></i> RAG</span>
-                <span><i className="fa-solid fa-pen-nib"></i> Prompt Engineering</span>
-                <span><i className="fa-solid fa-sliders"></i> QLoRA & PEFT</span>
-                <span><i className="fa-solid fa-database"></i> Embeddings</span>
-                <span><i className="fa-solid fa-magnifying-glass"></i> Hybrid Search</span>
-                <span><i className="fa-solid fa-check-double"></i> RAGAS</span>
+                <span><i className="fa-solid fa-layer-group"></i> LlamaIndex</span>
+                <span><i className="fa-solid fa-circle-nodes"></i> NetworkX</span>
+                <span><i className="fa-solid fa-calculator"></i> NumPy</span>
+                <span><i className="fa-solid fa-table-cells"></i> Pandas</span>
+                <span><i className="fa-solid fa-server"></i> FastAPI</span>
               </div>
             </div>
 
             <div className="skills-card reveal glass-card" data-magnet="10">
-              <h3>Cloud & MLOps</h3>
+              <h3>Machine Learning & AI</h3>
               <div className="skills-icons">
-                <span><i className="fa-brands fa-aws"></i> AWS (SageMaker, Bedrock, Textract, Lex)</span>
-                <span><i className="fa-solid fa-cloud"></i> Azure AI Services</span>
-                <span><i className="fa-brands fa-docker"></i> Docker</span>
-                <span><i className="fa-solid fa-network-wired"></i> Kubernetes</span>
-                <span><i className="fa-solid fa-wind"></i> Apache Airflow</span>
-                <span><i className="fa-solid fa-chart-line"></i> MLflow</span>
-                <span><i className="fa-solid fa-arrows-rotate"></i> CI/CD</span>
+                <span><i className="fa-solid fa-diagram-project"></i> ML Systems Design</span>
+                <span><i className="fa-solid fa-sitemap"></i> XGBoost & LightGBM</span>
+                <span><i className="fa-solid fa-sitemap"></i> CatBoost</span>
+                <span><i className="fa-solid fa-circle-nodes"></i> PyTorch Geometric</span>
+                <span><i className="fa-solid fa-circle-nodes"></i> Graph Neural Networks</span>
+                <span><i className="fa-solid fa-language"></i> NLP</span>
+                <span><i className="fa-solid fa-brain"></i> Transformers & BERT</span>
+                <span><i className="fa-solid fa-brain"></i> Sentence-Transformers</span>
+                <span><i className="fa-solid fa-book-open"></i> RAG Systems</span>
+                <span><i className="fa-solid fa-triangle-exclamation"></i> Anomaly Detection</span>
+                <span><i className="fa-solid fa-chart-line"></i> Time-Series Modeling</span>
+                <span><i className="fa-solid fa-sliders"></i> Feature Engineering</span>
+                <span><i className="fa-solid fa-magnifying-glass-chart"></i> SHAP Explainability</span>
+                <span><i className="fa-solid fa-scale-balanced"></i> Cost-Sensitive Learning</span>
+                <span><i className="fa-solid fa-filter"></i> SMOTE (Imbalance)</span>
+              </div>
+            </div>
+
+            <div className="skills-card reveal glass-card" data-magnet="10">
+              <h3>MLOps & Lifecycle</h3>
+              <div className="skills-icons">
                 <span><i className="fa-solid fa-rocket"></i> Model Deployment</span>
-                <span><i className="fa-solid fa-heart-pulse"></i> Model Monitoring</span>
-                <span><i className="fa-solid fa-gears"></i> LLMOps</span>
-              </div>
-            </div>
-
-            <div className="skills-card reveal glass-card" data-magnet="10">
-              <h3>Document AI & Computer Vision</h3>
-              <div className="skills-icons">
-                <span><i className="fa-solid fa-file-contract"></i> LayoutLM</span>
-                <span><i className="fa-solid fa-file-text"></i> Tesseract OCR</span>
-                <span><i className="fa-solid fa-eye"></i> OpenCV</span>
+                <span><i className="fa-solid fa-stream"></i> Streaming Inference</span>
+                <span><i className="fa-solid fa-layer-group"></i> Batch Inference</span>
+                <span><i className="fa-solid fa-heart-pulse"></i> Evidently AI & TruLens</span>
+                <span><i className="fa-solid fa-flask"></i> MLflow Tracking</span>
                 <span><i className="fa-solid fa-microchip"></i> ONNX Runtime</span>
-                <span><i className="fa-solid fa-robot"></i> Intelligent Document Processing</span>
+                <span><i className="fa-solid fa-compress"></i> AWQ Quantization</span>
+                <span><i className="fa-solid fa-magnifying-glass"></i> Vector Search Infra</span>
+                <span><i className="fa-solid fa-database"></i> Feast Feature Store</span>
+                <span><i className="fa-solid fa-memory"></i> Redis Enterprise</span>
+                <span><i className="fa-solid fa-arrows-rotate"></i> CI/CD for ML</span>
+                <span><i className="fa-solid fa-chart-pie"></i> Data & Drift Detection</span>
               </div>
             </div>
 
             <div className="skills-card reveal glass-card" data-magnet="10">
-              <h3>Databases & Tools</h3>
+              <h3>Distributed Computing & Cloud</h3>
               <div className="skills-icons">
-                <span><i className="fa-solid fa-database"></i> PostgreSQL</span>
-                <span><i className="fa-solid fa-memory"></i> Redis</span>
-                <span><i className="fa-solid fa-database"></i> Vector Databases</span>
-                <span><i className="fa-brands fa-git-alt"></i> Git</span>
-                <span><i className="fa-brands fa-github"></i> GitHub</span>
-                <span><i className="fa-solid fa-list-check"></i> Jira</span>
-                <span><i className="fa-solid fa-users"></i> Agile Scrum</span>
+                <span><i className="fa-brands fa-aws"></i> AWS SageMaker</span>
+                <span><i className="fa-brands fa-aws"></i> AWS EKS & S3</span>
+                <span><i className="fa-brands fa-aws"></i> Lambda & EventBridge</span>
+                <span><i className="fa-brands fa-aws"></i> AWS Redshift</span>
+                <span><i className="fa-solid fa-cloud"></i> Azure ML & Databricks</span>
+                <span><i className="fa-solid fa-cloud"></i> Event Hubs & CosmosDB</span>
+                <span><i className="fa-solid fa-network-wired"></i> Ray Serve & Cluster</span>
+                <span><i className="fa-brands fa-docker"></i> Docker</span>
+              </div>
+            </div>
+
+            <div className="skills-card reveal glass-card" data-magnet="10">
+              <h3>Data Engineering & Streaming</h3>
+              <div className="skills-icons">
+                <span><i className="fa-solid fa-stream"></i> Apache Kafka</span>
+                <span><i className="fa-solid fa-snowflake"></i> Snowflake & Iceberg</span>
+                <span><i className="fa-solid fa-wind"></i> Apache Airflow</span>
+                <span><i className="fa-solid fa-database"></i> PostgreSQL (pgvector)</span>
+                <span><i className="fa-solid fa-table"></i> SQL</span>
+                <span><i className="fa-solid fa-cubes"></i> Pinecone & Qdrant</span>
+                <span><i className="fa-solid fa-cubes"></i> FAISS & Milvus</span>
+              </div>
+            </div>
+
+            <div className="skills-card reveal glass-card" data-magnet="10">
+              <h3>Domain Knowledge (BFSI)</h3>
+              <div className="skills-icons">
+                <span><i className="fa-solid fa-shield-halved"></i> P&C Insurance Fraud</span>
+                <span><i className="fa-solid fa-credit-card"></i> Credit Risk Underwriting</span>
+                <span><i className="fa-solid fa-user-shield"></i> AML Anomaly Detection</span>
+                <span><i className="fa-solid fa-money-bill-transfer"></i> T+1 Trade Settlement</span>
+                <span><i className="fa-solid fa-chart-pie"></i> Fixed Income Attribution</span>
+                <span><i className="fa-solid fa-file-invoice-dollar"></i> ISO 20022 & Swift Parsing</span>
               </div>
             </div>
           </div>
@@ -327,7 +332,7 @@ export default function App() {
         <div className="container">
           <h2 className="section-title reveal">Featured Projects</h2>
           <p className="section-text center reveal">
-            Selected projects showcasing deep learning forecasting, risk scoring anomaly detection, and RAG troubleshooting engines.
+            Selected projects showcasing high-frequency deep learning forecasting, risk scoring anomaly detection, and RAG troubleshooting engines.
           </p>
 
           <div className="projects-grid">
@@ -336,7 +341,7 @@ export default function App() {
                 <span className="project-icon">
                   <i className="fa-solid fa-chart-line"></i>
                 </span>
-                <h3>Stock Market Trend Prediction Analysis</h3>
+                <h3>Stock Market Trend Prediction Analysis with Deep Learning and ML</h3>
               </div>
 
               <p className="project-desc">
@@ -443,17 +448,17 @@ export default function App() {
                 <p className="timeline-period">Sep 2025 – Present</p>
                 <h3>State Street · Machine Learning Engineer</h3>
                 <p>
-                  • Architected and deployed Retrieval Augmented Generation applications using LangChain, LangGraph, Azure OpenAI, and vector databases to improve enterprise knowledge discovery for financial research teams.
+                  • Engineered a low-latency T+1 settlement fail prediction system on AWS EKS using LightGBM and ONNX Runtime to intercept high-risk trade exceptions. Streamlined intraday routing for custody operations, cutting manual investigations by 32% and mitigating $3.2M in annual penalty fees.
                   <br />
-                  • Developed Agentic AI workflows with tool calling, memory management, and multi-step reasoning to automate research, document analysis, and internal knowledge retrieval.
+                  • Constructed sub-50ms streaming feature pipelines via Apache Kafka, PySpark, and Redis Enterprise to ingest Swift ISO 20022 message flows and custodian balance feeds. Enabled real-time liquidity exposure scoring that achieved an 89% precision rate prior to market cutoffs.
                   <br />
-                  • Built scalable inference services using FastAPI, Docker, and Kubernetes, enabling reliable deployment of LLM powered applications with sub two second response times.
+                  • Deployed multi-task neural network models within Ray Serve to simultaneously forecast settlement failure probabilities and estimate overnight cash buffer requirements. Automated risk-prioritized ticket queues inside the State Street Alpha middle-office platform.
                   <br />
-                  • Designed hybrid retrieval pipelines combining embeddings, BM25 search, reranking models, and semantic search to improve response relevance across enterprise AI assistants.
+                  • Architected a fixed-income similarity framework using PyTorch Geometric Graph Neural Networks to model complex corporate bond capital structures. Generated 256-dimensional embeddings for 1.2M+ instruments, improving missing price estimation accuracy by 24% RMSE.
                   <br />
-                  • Implemented end to end MLOps and LLMOps workflows using MLflow, Apache Airflow, CI/CD, automated evaluation, and model monitoring, reducing model deployment time by 60%.
+                  • Scaled a high-throughput Qdrant vector search infrastructure on Ray clusters to execute sub-10ms nearest-neighbor queries across illiquid municipal and corporate assets. Accelerated quantitative factor-risk calculations for SSGA portfolio managers from 45 minutes down to 4.
                   <br />
-                  • Collaborated with data scientists, software engineers, and business stakeholders to deliver secure, scalable AI solutions aligned with enterprise governance and compliance requirements.
+                  • Formulated sparse regularized ensemble algorithms paired with Kalman Filtering to deliver dynamic factor risk attribution matrices for non-liquid securities. Enhanced portfolio stress-testing capabilities across 5,000+ institutional client accounts.
                 </p>
               </div>
             </div>
@@ -464,17 +469,19 @@ export default function App() {
                 <p className="timeline-period">Apr 2021 – Dec 2023</p>
                 <h3>Happiest Minds Technologies · Machine Learning Engineer</h3>
                 <p>
-                  • Developed customer churn prediction models using Python, Scikit learn, XGBoost, and SQL on more than 1 million customer records, improving retention campaign effectiveness by 18%.
+                  • Accelerated Scikit-Learn and TensorFlow model-training workflows by optimizing Pandas transformations and feature-matrix construction, reducing average experimentation runtime by 31% across 20+ model iterations.
                   <br />
-                  • Built intelligent document processing solutions using LayoutLM, OCR, and transformer models, reducing manual document processing by 70%.
+                  • Engineered an end-to-end P&C claims fraud detection model on AWS SageMaker using XGBoost and CatBoost to replace legacy rule-based intake. Handled extreme class imbalance with SMOTE-Tomek, cutting manual reviews by 35% and saving $1.8M annually.
                   <br />
-                  • Improved document extraction accuracy from 67% to 89% by implementing layout aware NLP pipelines for scanned and semi structured documents.
+                  • Integrated NLP sentiment analysis on First Notice of Loss (FNOL) adjuster notes using BERT embeddings, feeding risk signals directly into the scoring engine. Accelerated straight-through processing for clean claims while increasing early fraud capture by 18%.
                   <br />
-                  • Automated model training, deployment, and monitoring using Apache Airflow, MLflow, Docker, and Kubernetes to streamline machine learning operations.
+                  • Architected a real-time credit underwriting pipeline using PySpark, Azure Databricks, and Feast feature store to analyze streaming transaction velocity. Boosted default prediction accuracy by 12% over traditional scoring methods.
                   <br />
-                  • Developed demand forecasting models using Prophet, LSTM, and Temporal Fusion Transformers to support inventory planning and business forecasting.
+                  • Implemented SHAP explainability frameworks at inference to generate dynamic regulatory reason codes for automated loan decisions. Streamlined FCRA compliance workflows and reduced false-positive AML transaction alerts by 28%.
                   <br />
-                  • Collaborated with product managers and engineering teams to integrate machine learning models into production applications, contributing to solutions that generated approximately $2 million in annual operational savings.
+                  • Built a Hybrid-RAG document retrieval system using LangChain, Pinecone, and Azure OpenAI to parse complex commercial insurance policy PDFs. Reduced underwriter search times from 15 minutes to under 10 seconds per query.
+                  <br />
+                  • Designed a cross-encoder reranking pipeline with strict system guardrails to prevent LLM hallucinations during customer support interactions. Improved agent issue resolution rates by 40% while ensuring 100% factual accuracy against policy documents.
                 </p>
               </div>
             </div>
@@ -521,7 +528,7 @@ export default function App() {
                 </div>
               </div>
 
-              <p className="edu-degree">Bachelors in Computer Science</p>
+              <p className="edu-degree">B.Tech in Computer Science and Engineering</p>
             </article>
           </div>
         </div>
@@ -543,7 +550,7 @@ export default function App() {
               </li>
               <li>
                 <i className="fa-solid fa-phone"></i>
-                <a href="tel:7742325627">(774) 232-5627</a>
+                <a href="tel:+17742325627">+17742325627</a>
               </li>
               <li>
                 <i className="fab fa-linkedin"></i>

@@ -1,52 +1,55 @@
 Tarun Emmanuel Majhi — Portfolio
 
-Machine Learning Engineer with 4 years of experience building production AI solutions across financial services and enterprise applications.
+Machine Learning Engineer with around 4 years of experience designing, deploying, and maintaining production ML platforms and streaming infrastructure across banking and insurance.
 
-This repository contains my personal portfolio website built using React + TypeScript (Vite), showcasing my experience in AI/ML engineering, LLMs, RAG systems, document intelligence, and MLOps pipelines.
+This repository contains my personal portfolio website built using React + TypeScript (Vite), showcasing my experience in real-time inference pipelines, graph neural networks, MLOps, and enterprise GenAI systems.
 
 👋 About Me
 
-I am a Machine Learning Engineer with 4 years of experience building and deploying production-ready machine learning and AI systems.
+I am a Machine Learning Engineer with around 4 years of experience building and deploying production-ready machine learning and streaming platforms across banking and insurance.
 
 My work focuses on:
-- Large Language Models (LLMs) & Agentic AI
-- Retrieval-Augmented Generation (RAG) Systems
-- Intelligent Document Processing (IDP)
-- Time-Series Forecasting & Anomaly Detection
-- Cloud-Native MLOps & LLMOps
+- Real-Time Inference & Streaming Feature Pipelines (Kafka, PySpark, Redis)
+- Graph Neural Networks & Similarity Frameworks (PyTorch Geometric)
+- Gradient Boosting & Time-Series Modeling (LightGBM, XGBoost, CatBoost)
+- Enterprise GenAI & Retrieval-Augmented Generation (RAG)
+- Cloud-Native MLOps & Distributed Computing (AWS SageMaker/EKS, Ray, Docker)
+- BFSI Domain Systems (Trade Settlement, Fraud Detection, AML, Credit Risk)
 
 🧠 Experience Highlights
 
 💼 State Street — Machine Learning Engineer
 Sep 2025 – Present
-- Architected and deployed Retrieval Augmented Generation (RAG) applications using LangChain, LangGraph, Azure OpenAI, and vector databases.
-- Developed Agentic AI workflows with tool calling, memory management, and multi-step reasoning.
-- Built scalable inference services using FastAPI, Docker, and Kubernetes with sub-2s response times.
-- Designed hybrid retrieval pipelines combining embeddings, BM25, reranking, and semantic search.
-- Implemented MLOps/LLMOps workflows using MLflow, Airflow, CI/CD, and model monitoring (reducing deployment time by 60%).
+- Engineered a low-latency T+1 settlement fail prediction system on AWS EKS using LightGBM and ONNX Runtime to intercept high-risk trade exceptions, cutting manual investigations by 32% and mitigating $3.2M in annual penalty fees.
+- Constructed sub-50ms streaming feature pipelines via Apache Kafka, PySpark, and Redis Enterprise to ingest Swift ISO 20022 message flows and custodian balance feeds, achieving an 89% precision rate prior to market cutoffs.
+- Deployed multi-task neural network models within Ray Serve to simultaneously forecast settlement failure probabilities and estimate overnight cash buffer requirements, automating risk-prioritized ticket queues inside State Street Alpha.
+- Architected a fixed-income similarity framework using PyTorch Geometric Graph Neural Networks to model corporate bond capital structures, generating 256-d embeddings for 1.2M+ instruments (improving missing price estimation accuracy by 24% RMSE).
+- Scaled a high-throughput Qdrant vector search infrastructure on Ray clusters to execute sub-10ms nearest-neighbor queries across illiquid assets, accelerating factor-risk calculations from 45 minutes down to 4.
+- Formulated sparse regularized ensemble algorithms paired with Kalman Filtering for dynamic factor risk attribution matrices across 5,000+ institutional client accounts.
 
 💼 Happiest Minds Technologies — Machine Learning Engineer
 Apr 2021 – Dec 2023
-- Developed customer churn prediction models (Scikit-learn, XGBoost, SQL) on 1M+ records (+18% retention campaign effectiveness).
-- Built intelligent document processing solutions using LayoutLM, OCR, and transformers (70% reduction in manual document processing).
-- Improved document extraction accuracy from 67% to 89% via layout-aware NLP pipelines.
-- Automated model training, deployment, and monitoring with Airflow, MLflow, Docker, and Kubernetes.
-- Developed demand forecasting models using Prophet, LSTM, and Temporal Fusion Transformers ($2M annual operational savings).
+- Accelerated Scikit-Learn and TensorFlow model-training workflows by optimizing Pandas transformations and feature-matrix construction, reducing experimentation runtime by 31% across 20+ iterations.
+- Engineered an end-to-end P&C claims fraud detection model on AWS SageMaker using XGBoost and CatBoost, handling extreme class imbalance with SMOTE-Tomek, cutting manual reviews by 35% and saving $1.8M annually.
+- Integrated NLP sentiment analysis on FNOL adjuster notes using BERT embeddings, accelerating straight-through processing for clean claims while increasing early fraud capture by 18%.
+- Architected a real-time credit underwriting pipeline using PySpark, Azure Databricks, and Feast feature store, boosting default prediction accuracy by 12%.
+- Implemented SHAP explainability frameworks at inference to generate dynamic regulatory reason codes for automated loan decisions, streamlining FCRA compliance and reducing false-positive AML alerts by 28%.
+- Built a Hybrid-RAG document retrieval system using LangChain, Pinecone, and Azure OpenAI to parse complex commercial insurance policy PDFs, reducing search times from 15 minutes to under 10 seconds.
+- Designed a cross-encoder reranking pipeline with strict system guardrails to prevent LLM hallucinations, improving agent resolution rates by 40% with 100% factual accuracy.
 
 🛠 Tech Stack
-- **Languages**: Python, Java, SQL
-- **Databases**: PostgreSQL, Redis, Vector Databases
-- **Machine Learning**: PyTorch, TensorFlow, Scikit-learn, XGBoost, LightGBM, Hugging Face Transformers, BERT, Prophet, LSTM, GRU, Temporal Fusion Transformer, SHAP
-- **Generative AI**: LangChain, LangGraph, OpenAI GPT-4o, Azure OpenAI Service, Agentic AI, RAG, Prompt Engineering, QLoRA, PEFT, Embeddings, Hybrid Search, RAGAS
-- **Software Engineering**: FastAPI, REST APIs, Microservices, Apache Kafka, ETL Pipelines, Distributed Systems
-- **Cloud & MLOps**: AWS (SageMaker, Bedrock, Textract, Lex), Azure AI Services, Docker, Kubernetes, Apache Airflow, MLflow, CI/CD, Model Deployment, Model Monitoring, LLMOps
-- **Document AI & CV**: LayoutLM, Tesseract OCR, OpenCV, ONNX Runtime, Intelligent Document Processing
+- **Machine Learning & AI**: Machine Learning Systems Design, Gradient Boosting (XGBoost, LightGBM, CatBoost), Graph Neural Networks (PyTorch Geometric), NLP, Transformers (BERT, Sentence-Transformers), RAG, Anomaly Detection, Time-Series & Sequence Modeling, Feature Engineering, SHAP, Cost-Sensitive Learning, SMOTE
+- **MLOps & Lifecycle**: Model Deployment, Streaming & Batch Inference, Model Monitoring (Evidently AI, TruLens), Experiment Tracking (MLflow), Model Optimization (ONNX Runtime, AWQ Quantization), Vector Search Infrastructure, Feature Stores (Feast, Redis Enterprise), CI/CD for ML, Drift Detection
+- **Languages & Frameworks**: Python, PySpark, Polars, Scikit-learn, PyTorch, LangChain, LlamaIndex, NetworkX, NumPy, Pandas, FastAPI
+- **Distributed Computing & Cloud**: AWS (SageMaker, EKS, S3, Lambda, EventBridge, Redshift), Azure (Azure ML, Databricks, Event Hubs, CosmosDB), Ray (Ray Serve, Ray Cluster), Docker
+- **Data Engineering & Streaming**: Apache Kafka, Snowflake (Iceberg Tables), Apache Airflow, PostgreSQL (pgvector), SQL, Vector Databases (Pinecone, Qdrant, FAISS, Milvus)
+- **Domain Knowledge (BFSI)**: P&C Insurance Claims Fraud, Credit Risk Underwriting, AML Anomaly Detection, T+1 Trade Settlement Operations, Fixed Income Risk Attribution, Financial Document Parsing (ISO 20022, Swift)
 
 🎓 Education
 - **Clark University, Worcester, MA**
-  Master of Science in Computer Science (GPA: 3.9/4.0) | Jan 2024 – Dec 2025
+  MS in Computer Science, GPA: 3.9/4.0 | Jan 2024 – Dec 2025
 - **Jawaharlal Nehru Technological University, Anantapur, India**
-  Bachelors in Computer Science | July 2018 – May 2022
+  B.Tech in Computer Science and Engineering | July 2018 – May 2022
 
 🌐 Live Site
 tarunemmanuel.github.io
